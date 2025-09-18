@@ -25,7 +25,7 @@ In the future, we may switch to a more actively maintained project or develop a 
 
 Changing the network proves quite a challenge. Assuming you are using NetworkManager, and have already connected to a network, the easiest method to change the network is to manually edit `/etc/NetworkManager/system-connections/Wi-Fi\ connection\ 1.nmconnection`. See [this StackOverflow thread](https://askubuntu.com/questions/615245/how-can-i-update-a-network-manager-connection-from-the-command-line) for more information.
 
-To do this, you either need to be connected to the old network or have a system that can read/write ext4 files.
+To do this, you either need to be connected to the old network or have a system that can supports ext4 filesystems.
 - If you are connected to the old network, simply ssh into the Pi and edit the file using your text editor of choice.
 - If you are running an OS that supports the ext4 filesystem, power off the Pi and use a sdcard reader to view the filesystem.
 
